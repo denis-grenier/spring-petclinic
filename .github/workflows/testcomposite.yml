@@ -1,4 +1,4 @@
-name: Test composite"
+name: Test composite
 on: [push]
 
 jobs:
