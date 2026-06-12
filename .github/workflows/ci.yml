@@ -12,7 +12,6 @@ jobs:
     uses: ./.github/workflows/hello-template.yml
     with:
       username: Mona
-
   update-gitops:
     needs: build # Mettre ici le nom de votre job précédent (celui qui push sur GHCR)
     runs-on: ubuntu-latest
